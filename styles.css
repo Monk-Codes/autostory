@@ -1,0 +1,26 @@
+body {
+ font-family: Arial, sans-serif;
+ background-color: tomato;
+}
+
+.input-field {
+ margin: 10px 0;
+}
+
+.input-field label {
+ display: inline-block;
+ width: 150px;
+}
+
+input {
+ margin-left: 10px;
+}
+
+button {
+ padding: 10px 20px;
+ cursor: pointer;
+}
+
+#story-container {
+ margin-top: 20px;
+}
