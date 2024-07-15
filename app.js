@@ -14,7 +14,7 @@ document.getElementById("start-button").addEventListener("click", async () => {
   div.className = "input-field";
   // Display the word that needs to be replaced
   const cleanedWord = word.replace(/[<>]/g, "");
-  div.innerHTML = `<label for="${cleanedWord}">Replace with:</label> ${cleanedWord}<input type="text" id="${cleanedWord}" />`;
+  div.innerHTML = `Replace with : ${cleanedWord}<input type="text" id="${cleanedWord}"/>`;
   formContainer.appendChild(div);
  });
 
